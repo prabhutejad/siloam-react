@@ -33,7 +33,7 @@ const Otp = () => {
         // }, 5000)
         setTimeout(() => {
           // 👇️ redirects to an external URL
-          window.location.replace('http://siloamglorymission.22web.org/admin-main/admin');
+          window.location.replace('http://siloamglorymission.22web.org/admin-main/admin/home.php');
           localStorage.setItem("userdbtoken", response.data.userToken);
         toast.success(response.data.message);
         }, 3000);
